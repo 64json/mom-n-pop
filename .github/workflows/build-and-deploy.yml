@@ -1,5 +1,4 @@
-name: Build and Deploy
-
+name: Deploy
 on:
   push:
     branches:
@@ -9,22 +8,21 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
-      - name: Install and Build
-        run: |
-          yarn install --frozen-lockfile
-          CI=false npm run build
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - name: Install
+        run: yarn install --frozen-lockfile
 
-      - name: Deploy 🚀
+      - name: Build
+        run: CI=false yarn build
+
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
           CLEAN: true
