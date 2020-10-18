@@ -3,8 +3,7 @@ import { GoogleApiWrapper, Map, Marker } from 'google-maps-react';
 import BezierEasing from 'bezier-easing';
 import './stylesheet.scss';
 import mapStyles from './mapStyles.json';
-import imageMarkerPrimary from './marker-primary.png';
-import imageMarkerSecondary from './marker-secondary.png';
+import imageMarker from './marker.png';
 
 const easing = BezierEasing(0.25, 0.1, 0.25, 1.0);
 let lastInterval = null;
@@ -14,15 +13,15 @@ function GoogleMaps({ google, venues, venue, onClick }) {
   const [center, setCenter] = useState(undefined);
 
   const primaryIcon = useMemo(() => ({
-    url: imageMarkerPrimary,
-    anchor: new google.maps.Point(0, 0),
-    scaledSize: new google.maps.Size(32, 32),
+    url: imageMarker,
+    anchor: new google.maps.Point(32, 64),
+    scaledSize: new google.maps.Size(64, 64),
   }), []);
 
   const secondaryIcon = useMemo(() => ({
-    url: imageMarkerSecondary,
-    anchor: new google.maps.Point(0, 0),
-    scaledSize: new google.maps.Size(32, 32),
+    url: imageMarker,
+    anchor: new google.maps.Point(18, 36),
+    scaledSize: new google.maps.Size(36, 36),
   }), []);
 
   useEffect(() => {
