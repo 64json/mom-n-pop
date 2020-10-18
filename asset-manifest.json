@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/mom-n-pop/static/css/main.f1d73da6.chunk.css",
-    "main.js": "/mom-n-pop/static/js/main.a4e40c6a.chunk.js",
-    "main.js.map": "/mom-n-pop/static/js/main.a4e40c6a.chunk.js.map",
+    "main.js": "/mom-n-pop/static/js/main.cef8008b.chunk.js",
+    "main.js.map": "/mom-n-pop/static/js/main.cef8008b.chunk.js.map",
     "runtime-main.js": "/mom-n-pop/static/js/runtime-main.a85249be.js",
     "runtime-main.js.map": "/mom-n-pop/static/js/runtime-main.a85249be.js.map",
-    "static/js/2.453a7aa7.chunk.js": "/mom-n-pop/static/js/2.453a7aa7.chunk.js",
-    "static/js/2.453a7aa7.chunk.js.map": "/mom-n-pop/static/js/2.453a7aa7.chunk.js.map",
+    "static/js/2.7451704e.chunk.js": "/mom-n-pop/static/js/2.7451704e.chunk.js",
+    "static/js/2.7451704e.chunk.js.map": "/mom-n-pop/static/js/2.7451704e.chunk.js.map",
     "index.html": "/mom-n-pop/index.html",
-    "precache-manifest.bf28543865c57dd3feefea32bb12b366.js": "/mom-n-pop/precache-manifest.bf28543865c57dd3feefea32bb12b366.js",
+    "precache-manifest.ddea658fbe688666652fed2b9c535576.js": "/mom-n-pop/precache-manifest.ddea658fbe688666652fed2b9c535576.js",
     "service-worker.js": "/mom-n-pop/service-worker.js",
     "static/css/main.f1d73da6.chunk.css.map": "/mom-n-pop/static/css/main.f1d73da6.chunk.css.map",
-    "static/js/2.453a7aa7.chunk.js.LICENSE.txt": "/mom-n-pop/static/js/2.453a7aa7.chunk.js.LICENSE.txt",
+    "static/js/2.7451704e.chunk.js.LICENSE.txt": "/mom-n-pop/static/js/2.7451704e.chunk.js.LICENSE.txt",
     "static/media/furniture_cover.jpg": "/mom-n-pop/static/media/furniture_cover.48b1d9cd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a85249be.js",
-    "static/js/2.453a7aa7.chunk.js",
+    "static/js/2.7451704e.chunk.js",
     "static/css/main.f1d73da6.chunk.css",
-    "static/js/main.a4e40c6a.chunk.js"
+    "static/js/main.cef8008b.chunk.js"
   ]
 }

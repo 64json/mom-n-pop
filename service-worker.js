@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mom-n-pop/precache-manifest.bf28543865c57dd3feefea32bb12b366.js"
+  "/mom-n-pop/precache-manifest.ddea658fbe688666652fed2b9c535576.js"
 );
 
 self.addEventListener('message', (event) => {
